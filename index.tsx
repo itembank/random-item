@@ -55,7 +55,6 @@ function App() {
                 }]
 
   const [item, setItem] = useState<any>([]);
-  const [swap, setSwap] = useState(0); //For #0
 
   const pickItem = async() => {
     try {
