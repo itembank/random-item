@@ -83,7 +83,7 @@ function App() {
 
   return (
     <>
-        <button onClick={pickItem}>Randomize</button>
+        <button onClick={pickItem}>Draw item</button>
 
         <div onChange={handleInputChange}>
 	 <ul>
